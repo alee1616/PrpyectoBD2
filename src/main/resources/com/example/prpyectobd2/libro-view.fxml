@@ -59,9 +59,11 @@
                 <!-- Botones de Acción -->
                 <HBox alignment="CENTER_LEFT" spacing="15.0">
                     <children>
-                        <Button fx:id="btnGuardar" mnemonicParsing="false" onAction="#onGuardarLibro" prefWidth="120.0" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" text="Guardar" />
-                        <Button fx:id="btnActualizar" mnemonicParsing="false" onAction="#onActualizarTabla" prefWidth="120.0" style="-fx-background-color: #2196F3; -fx-text-fill: white;" text="Actualizar Tabla" />
-                        <Button fx:id="btnLimpiar" mnemonicParsing="false" onAction="#onLimpiar" prefWidth="120.0" style="-fx-background-color: #2237c5;" text="Limpiar" textFill="WHITE" />
+                        <Button fx:id="btnGuardar" mnemonicParsing="false" onAction="#onGuardarLibro" prefHeight="26.0" prefWidth="74.0" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" text="Guardar" />
+                        <Button fx:id="btnActualizar" mnemonicParsing="false" onAction="#onActualizarTabla" prefHeight="26.0" prefWidth="104.0" style="-fx-background-color: #2196F3; -fx-text-fill: white;" text="Actualizar Tabla" />
+                        <Button fx:id="btnLimpiar" mnemonicParsing="false" onAction="#onLimpiar" prefHeight="26.0" prefWidth="56.0" style="-fx-background-color: #2237c5;" text="Limpiar" textFill="WHITE" />
+                  <Button fx:id="btnActualizarRegistro" mnemonicParsing="false" onAction="#onActualizarRegistro" text="Actualizar registro" />
+                  <Button fx:id="btnEliminar" mnemonicParsing="false" onAction="#onEliminar" text="Eliminar" />
                     </children>
                     <padding>
                         <Insets bottom="10.0" top="10.0" />
